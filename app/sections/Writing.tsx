@@ -25,7 +25,10 @@ export default function Writing() {
 
         <p className="leading-10 text-lg mt-6">
           It's about someone who made me pay
-          attention.
+          attention. Someone who made me want to remember
+          the little things. Someone who made me want to
+          write about them. Someone who is special to me.
+          Someone who is part of my story.
         </p>
 
       </div>

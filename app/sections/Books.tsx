@@ -17,65 +17,100 @@ export default function Books() {
       <div className="max-w-5xl mx-auto grid md:grid-cols-3 gap-6">
 
         <button
-          onClick={() => setBook("chapter1")}
+          onClick={() => setBook("Poem1")}
           className="bg-white p-8 rounded-3xl shadow"
         >
-          📖 Chapter One
+          📖 Poem One
         </button>
 
         <button
-          onClick={() => setBook("chapter2")}
+          onClick={() => setBook("Poem2")}
           className="bg-white p-8 rounded-3xl shadow"
         >
-          🌷 Chapter Two
+          🌷 Poem Two
         </button>
 
         <button
-          onClick={() => setBook("chapter3")}
+          onClick={() => setBook("Poem3")}
           className="bg-white p-8 rounded-3xl shadow"
         >
-          🦋 Chapter Three
+          🦋 Poem Three
+        </button>
+
+        <button
+          onClick={() => setBook("Poem4")}
+          className="bg-white p-8 rounded-3xl shadow"
+        >
+          🦋 Poem Four
+        </button>
+
+        <button
+          onClick={() => setBook("Poem5")}
+          className="bg-white p-8 rounded-3xl shadow"
+        >
+          🦋 Poem Five
         </button>
 
       </div>
 
       <div className="max-w-4xl mx-auto mt-12">
 
-        {book === "chapter1" && (
+        {book === "Poem1" && (
           <div className="bg-white p-10 rounded-3xl shadow">
             <h3 className="text-4xl mb-6">
-              The Little Things
+              "Sonnet 43" by Elizabeth Barrett Browning
             </h3>
 
             <p className="leading-8">
-              I learned that sometimes the smallest
-              details tell you the most about a person.
+              "How do I love thee? Let me count the ways."
             </p>
           </div>
         )}
 
-        {book === "chapter2" && (
+        {book === "Poem2" && (
           <div className="bg-white p-10 rounded-3xl shadow">
             <h3 className="text-4xl mb-6">
-              Rainy Conversations
+              "Twelth Night" by William Shakespeare
             </h3>
 
             <p className="leading-8">
-              Some conversations stay with you longer
-              than you expect.
+              "Love sought is good, but given unsought is better."
             </p>
           </div>
         )}
 
-        {book === "chapter3" && (
+        {book === "Poem3" && (
           <div className="bg-white p-10 rounded-3xl shadow">
             <h3 className="text-4xl mb-6">
-              Butterfly Pages
+              "Romeo and Juliet" by William Shakespeare
             </h3>
 
             <p className="leading-8">
-              Some people make ordinary memories feel
-              like chapters worth rereading.
+              "My bounty is as boundless as the sea, My love as deep; the more I give to thee, The more I have, for both are infinite."
+            </p>
+          </div>
+        )}
+
+        {book === "Poem4" && (
+          <div className="bg-white p-10 rounded-3xl shadow">
+            <h3 className="text-4xl mb-6">
+              "Persuasion" by Jane Austen
+            </h3>
+
+            <p className="leading-8">
+              "I am half agony, half hope... I have loved none but you."
+            </p>
+          </div>
+        )}
+
+        {book === "Poem5" && (
+          <div className="bg-white p-10 rounded-3xl shadow">
+            <h3 className="text-4xl mb-6">
+              "I wandered lonely as a cloud" by William Wordsworth
+            </h3>
+
+            <p className="leading-8">
+              "I gazed—and gazed—but little thought What wealth the show to me had brought."
             </p>
           </div>
         )}

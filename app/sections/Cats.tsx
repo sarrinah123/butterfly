@@ -106,7 +106,7 @@ export default function Cats() {
               <strong>What I Learned</strong>
               <br />
               Every time you talk about him,
-              it sounds like you're talking about family.
+              it sounds like you're talking about family, you talked about how mischievious he is and how he always gets into trouble.
             </p>
           </div>
         )}
@@ -118,20 +118,20 @@ export default function Cats() {
             </h3>
 
             <p className="text-lg">
-              Sleepy • Relaxed • Affectionate
+              Sleepy • Troublemaker• Affectionate
             </p>
 
             <p className="mt-8">
               <strong>Fun Fact</strong>
               <br />
-              Professional nap champion.
+              Foody.
             </p>
 
             <p className="mt-8">
               <strong>What I Learned</strong>
               <br />
-              I don't think Kittu has ever rushed a
-              single day in his life.
+             Kittu and Batman are like two sides of the same coin. Kittu is the mischievous one who always gets into trouble, while Batman is the protective one who always watches over everyone. Kittu's love for sleep is unmatched, and he's always finding new places to nap, even if it means getting into trouble.
+             She'll destroy your stuff and stays hungry all the time.
             </p>
           </div>
         )}
@@ -143,20 +143,20 @@ export default function Cats() {
             </h3>
 
             <p className="text-lg">
-              Chaotic • Energetic • Playful
+              Careful he bites • Little one • Playful
             </p>
 
             <p className="mt-8">
               <strong>Fun Fact</strong>
               <br />
-              Believes rules are optional.
+              He gets hungry whenever he sees you.
+              He's the youngest and has trouble following his older siblings, but he's also the most playful and affectionate. He loves to cuddle and is always looking for attention, but be careful because he can be a bit nippy when he's in a playful mood.
             </p>
 
             <p className="mt-8">
               <strong>What I Learned</strong>
               <br />
-              Every story involving Sheru somehow
-              ends in complete chaos.
+              He's your little baby, the littlest one. And you have a soft spot for him.
             </p>
           </div>
         )}
